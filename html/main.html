@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="main-navbar">
+            <div class="main-heading">
+                <img src="images.jpeg" alt="Logo" style="height:32px;vertical-align:middle;margin-right:5px;">
+                <span style="font-weight:800;font-size:1.3rem;color:#fff;"> <span style="color:#47b2e7;">My
+                        Portfolio</span></span>
+            </div>
+            <div class="main-option" id="nav-options">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certificate">Certifications</a>
+                <a href="#testimonial">Resume</a>
+            </div>
+            <a href="#contact" class="lets-talk-btn">Message me</a>
+            <div class="hamburger" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="main-home" id="home">
+            <div class="home-content">
+                <div class="home-info">
+                    <h1>Hi! I am<br><span class="highlight"> MCA Graduate</span></h1>
+                    <p class="home-desc">
+                        I am a recent Master of Computer Applications (MCA) graduate with a strong foundation in
+                        computer science, programming, and software development. My academic journey has equipped me
+                        with hands-on experience in designing and developing applications, solving real-world problems
+                        through code, and using modern tools and technologies to build efficient and scalable systems.
+                    </p>
+                    <div class="home-btns">
+                        <a href="#about" class="btn btn-primary">MORE INFO</a>
+
+                    </div>
+                </div>
+                <div class="home-img">
+                    <div class="img-circle">
+                        <img src="user.jpg" alt="Web Developer">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+
+            <div className='about-container'>
+                <h1 className="about-main-title">About <br /> Me</h1>
+                <div className="about-column">
+                    <div className="about-title">Objective</div>
+                    <div className="about-description">
+                        To obtain a challenging position as a web developer where I can utilize my skills in modern
+                        technologies and contribute to innovative projects while continuously learning and growing.
+                    </div>
+                </div>
+                <div className="about-column">
+                    <div className="about-title">Education</div>
+                    <ul className="education-list">
+                        <li className="education-item">
+                            <div className="education-degree">MCA</div>
+                            <div className="education-institute">SPPU University</div>
+                            <div className="education-year">2025</div>
+                        </li>
+                        <li className="education-item">
+                            <div className="education-degree">BSC</div>
+                            <div className="education-institute">Sant Gadge Baba Amravati University</div>
+                            <div className="education-year">2022</div>
+                        </li>
+                    </ul>
+                </div>
+                <div className="about-column">
+                    <div className="about-title">Strength</div>
+                    <ul className="about-list">
+                        <li>Quick learner and adaptable</li>
+                        <li>Strong problem-solving skills</li>
+                        <li>Team player with good communication</li>
+                        <li>Attention to detail</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="html.png" alt="HTML" />
+                    <span>HTML</span>
+                </div>
+                <div class="skill-item">
+                    <img src="css.png" alt="CSS" />
+                    <span>CSS</span>
+                </div>
+                <div class="skill-item">
+                    <img src="js.png" alt="JavaScript" />
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <img src="java.png" alt="React" />
+                    <span>Java</span>
+                </div>
+                <div class="skill-item">
+                    <img src="sql.png" alt="Node.js" />
+                    <span>SQL</span>
+                </div>
+                <div class="skill-item">
+                    <img src="git.png" alt="Git" />
+                    <span>Git</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="projects-list">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1" class="project-img">
+                    <div class="project-title">Portfolio Website</div>
+                    <div class="project-desc">
+                        A personal portfolio website to showcase my skills, projects, and contact information. Built
+                        with HTML, CSS, and JavaScript.
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2" class="project-img">
+                    <div class="project-title">E-commerce App</div>
+                    <div class="project-desc">
+                        A responsive e-commerce web application with product listings, cart, and checkout features.
+                        Developed using React and Node.js.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="certificate" id="certificate">
+            <h2>Certifications</h2>
+            <div class="cert-list">
+                <div class="cert-row">
+                    <div class="cert-title">Software Development Engineer in Test</div>
+                    <div class="cert-org">Seed Infotech</div>
+                    <div class="cert-date">Issued: Feb 2023</div>
+                    <div class="cert-desc">Completed a comprehensive program covering software testing, automation, and
+                        best practices.</div>
+                    <button class="view-cert-btn" data-cert="seed.jpg">View Certificate</button>
+                </div>
+                <div class="cert-row">
+                    <div class="cert-title">Salesforce Certified Associate</div>
+                    <div class="cert-org">Salesforce</div>
+                    <div class="cert-date">Issued: July 2023</div>
+                    <div class="cert-desc">Completed Salesforce Certified Associate program.</div>
+                    <button class="view-cert-btn" data-cert="salesforce.jpg">View Certificate</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-socials">
+                <div class="contact-social">
+                    <a class="contact-icon" href="https://in.linkedin.com/" target="_blank" rel="noopener">
+                        <img src="linkdn.png" alt="LinkedIn">
+                    </a>
+                    <div class="contact-label">LinkedIn</div>
+                    <a class="contact-id" href="https://in.linkedin.com/" target="_blank"
+                        rel="noopener">https://in.linkedin.com/</a>
+                </div>
+                <div class="contact-social">
+                    <a class="contact-icon" href="https://github.com/PavanHissal9401" target="_blank" rel="noopener">
+                        <img src="github.png" alt="Github">
+                    </a>
+                    <div class="contact-label">Github</div>
+                    <a class="contact-id" href="https://github.com/PavanHissal9401" target="_blank"
+                        rel="noopener">https://github.com/PavanHissal9401</a>
+                </div>
+                <div class="contact-social">
+                    <a class="contact-icon" href="https://instagram.com/pavanhissal_9401" target="_blank"
+                        rel="noopener">
+                        <img src="gmail.png" alt="Instagram">
+                    </a>
+                    <div class="contact-label">Gmail</div>
+                    <a class="contact-id" href="https://accounts.google.com/" target="_blank"
+                        rel="noopener">pavanhissal253@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="resume-modal">
+        <div class="resume-modal-content">
+            <span class="resume-close" id="resume-close">&times;</span>
+            <img src="resume.jpg" alt="Resume" class="resume-img">
+        </div>
+    </div>
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="resume-modal">
+        <div class="resume-modal-content">
+            <span class="resume-close" id="cert-close">&times;</span>
+            <img src="" alt="Certificate" class="resume-img" id="cert-img">
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="footer-content">
+            <span>&copy; 2024 Pavan Hissal. All rights reserved.</span>
+        </div>
+    </footer>
+    <script>
+        // Toggle navbar on mobile
+        const hamburger = document.getElementById('hamburger-menu');
+        const navOptions = document.getElementById('nav-options');
+        hamburger.addEventListener('click', function () {
+            navOptions.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('.main-option a, .lets-talk-btn').forEach(link => {
+            link.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href && href.startsWith('#')) {
+                    const targetId = href.slice(1);
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        e.preventDefault();
+                        targetSection.scrollIntoView({ behavior: 'smooth' });
+                        navOptions.classList.remove('active');
+                        hamburger.classList.remove('active');
+                    }
+                }
+            });
+        });
+
+        // Ensure hamburger/menu are in sync on resize
+        window.addEventListener('resize', function () {
+            if (window.innerWidth > 768) {
+                navOptions.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+
+        // Resume modal logic
+        const resumeLink = document.querySelector('.main-option a[href="#testimonial"]:last-child');
+        const resumeModal = document.getElementById('resume-modal');
+        const resumeClose = document.getElementById('resume-close');
+
+        if (resumeLink && resumeModal && resumeClose) {
+            resumeLink.addEventListener('click', function (e) {
+                e.preventDefault();
+                resumeModal.style.display = 'flex';
+                // Close mobile menu if open
+                navOptions.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+            resumeClose.addEventListener('click', function () {
+                resumeModal.style.display = 'none';
+            });
+            resumeModal.addEventListener('click', function (e) {
+                if (e.target === resumeModal) {
+                    resumeModal.style.display = 'none';
+                }
+            });
+        }
+
+        // Certificate modal logic
+        document.querySelectorAll('.view-cert-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const certModal = document.getElementById('cert-modal');
+                const certImg = document.getElementById('cert-img');
+                certImg.src = this.getAttribute('data-cert');
+                certModal.style.display = 'flex';
+            });
+        });
+        document.getElementById('cert-close').addEventListener('click', function () {
+            document.getElementById('cert-modal').style.display = 'none';
+        });
+        document.getElementById('cert-modal').addEventListener('click', function (e) {
+            if (e.target === this) {
+                this.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
